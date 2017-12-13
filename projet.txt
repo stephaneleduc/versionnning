@@ -1,1 +1,20 @@
 Ceci est un fichier de test
+
+//Initialiser GIT :
+git Init
+
+//Configurer les identifiants :
+git config user.email ""
+git config user.name ""
+
+//Ajouter des fichiers au prochain commit (creation de versions)
+git add .
+
+//Créer une version
+git commit -m "Mon message"
+
+//Aide sur GIT :
+git help *command*
+
+//Voir la liste des versions :
+git log
