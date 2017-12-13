@@ -9,6 +9,8 @@ git config user.name ""
 
 //Ajouter des fichiers au prochain commit (creation de versions)
 git add .
+git add --add
+git add "filename"
 
 //Créer une version
 git commit -m "Mon message"
