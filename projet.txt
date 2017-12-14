@@ -40,3 +40,10 @@ git checkout "nom_branche" -> se déplacer sur la branche en question
 
 //Fusion de branches
 git merge "nom_branche" (fusion sur la branche actuelle)
+
+//add distant
+git remote add origin https://...
+git push origin master
+
+// Initialiser GIT sur le dossier en cours
+git init
