@@ -50,3 +50,6 @@ git pull "name" master
 
 // Initialiser GIT sur le dossier en cours
 git init
+
+//copier un repository
+git clone URL
