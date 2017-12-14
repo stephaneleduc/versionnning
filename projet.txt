@@ -42,8 +42,11 @@ git checkout "nom_branche" -> se déplacer sur la branche en question
 git merge "nom_branche" (fusion sur la branche actuelle)
 
 //add distant
-git remote add origin https://...
-git push origin master
+git remote add "name" https://...
+git push "name" master
+
+//recuperation en local
+git pull "name" master
 
 // Initialiser GIT sur le dossier en cours
 git init
