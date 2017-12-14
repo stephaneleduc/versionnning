@@ -28,3 +28,8 @@ git checkout "cle_commit" -> on récupère ce fichier tel qu'il etait à ce comm
 
 //Défaire un commit
 git revert "cle_commit"
+
+//Branche
+git branch -> voir toutes les branches
+git branch "nom_branche" -> creer une branche
+git checkout "nom_branche" -> se déplacer sur la branche en question
