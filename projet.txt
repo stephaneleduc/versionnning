@@ -20,3 +20,7 @@ git help *command*
 
 //Voir la liste des versions :
 git log
+git log --oneline
+
+//regarder un commit précédent
+git checkout "clé_commit"
