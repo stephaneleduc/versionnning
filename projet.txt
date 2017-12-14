@@ -23,4 +23,8 @@ git log
 git log --oneline
 
 //regarder un commit précédent
-git checkout "clé_commit"
+git checkout "cle_commit" -> retour dans le passé sur ce commit
+git checkout "cle_commit" -> on récupère ce fichier tel qu'il etait à ce commit
+
+//Défaire un commit
+git revert "cle_commit"
