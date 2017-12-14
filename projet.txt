@@ -30,3 +30,11 @@ git checkout "cle_commit" -> on récupère ce fichier tel qu'il etait à ce comm
 git revert "cle_commit"
 
 //Conflit
+
+//Branche
+git branch -> voir toutes les branches
+git branch "nom_branche" -> creer une branche
+git checkout "nom_branche" -> se déplacer sur la branche en question
+
+//Fusion de branches
+git merge "nom_branche" (fusion sur la branche actuelle)
