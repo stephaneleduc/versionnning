@@ -11,6 +11,8 @@ git config user.name ""
 git add .
 git add --add
 git add "filename"
+git reset (enlever tous les fichiers à commiter)
+git reset "filename" (enleve seulement le fichier "filename")
 
 //Créer une version
 git commit -m "Mon message"
